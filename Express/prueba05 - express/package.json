@@ -1,0 +1,20 @@
+{
+  "name": "app05",
+  "version": "0.0.1",
+  "description": "pug express",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo E"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001bError:\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\"\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[DError: no test specified\" && exit 1\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C"
+  },
+  "author": "Said Cortes Calderon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}

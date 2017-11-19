@@ -1,0 +1,27 @@
+{
+  "name": "localizacionIP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "~17.0.1",
+    "boom": "~7.1.0",
+    "hoek": "~5.0.2",
+    "inert": "~5.0.1",
+    "joi": "~13.0.1",
+    "vision": "~5.1.0",
+    "hapi-dev-errors": "~2.0.1",
+    "hapi-dev-errors": "~3.0.0",
+    "hapi-geo-locate": "^3.0.0"
+  },
+  "devDependencies": {
+    "code": "~5.1.2",
+    "lab": "~15.1.2"
+  }
+}

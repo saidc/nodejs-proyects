@@ -1,0 +1,14 @@
+{
+  "name": "app02",
+  "version": "0.0.1",
+  "description": "hello world express",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo  \"Error: no test specified\" && exit 1"
+  },
+  "author": "Said Cortes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

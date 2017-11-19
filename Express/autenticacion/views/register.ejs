@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>login</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Home</a>
+        </div>
+
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <h1>Registro<h1>
+     <% if (errors){%>
+      <div class="alert alert-danger"><%= errors%></div>
+     <% }%>
+
+    <form action="/users/register" method="post">
+      <div class="form-group">
+        <label for="usuario">Usuario</label>
+        <input id="usuario" name="usuario" type="text" placeholder="usuario">
+      </div>
+      <div class="form-group">
+        <label for="Password">Contraseña</label>
+        <input id="Password" name="Password" type="password" placeholder="Contraseña">
+      </div>
+
+      
+      <div class="form-group">
+        <label for="nombre">Nombre Completo</label>
+        <input id="nombre" name="nombre" type="text" placeholder="nombre">
+      </div>
+      <div class="radio">
+        <label><input type="radio" value="Femenino"  name="sexo">Femenino</label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" value="Masculino" name="sexo" >Masculino</label>
+      </div>
+
+      <div>
+        <br> Salario 
+        <input type="number" name="salario" min="00000" max="9999999999"><br>
+      </div>
+      
+      <div>
+        <br> ID Rol 
+        <input type="number" name="idrol" min="00000" max="99999"><br>
+      </div>
+
+      <div>
+        <br> ID Grupo  
+        <input type="number" name="idgrupo" min="00000" max="99999"><br>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="btn btn-info">Registrar</button>
+      </div>
+
+    </form>
+    
+
+
+  </body>
+</html>

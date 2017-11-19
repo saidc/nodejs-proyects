@@ -1,0 +1,18 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title app05-index
+    link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', rel='stylesheet')
+  body
+    h1 Login
+    p #{variable}
+    form(action='/Usuario', method='post')
+      div(class="form-group")
+        label.col-sm-2.control-label(for='Email') Email
+        input#Email.form-control(type='email', placeholder='Email' name="Email")
+      div(class="form-group")
+        label.col-sm-2.control-label(for='Password' ) Password
+        input#Password.form-control(type='password', placeholder='Password' name="Password")
+      div(class="form-group")
+        button.btn.btn-info(type='submit') Sign in
