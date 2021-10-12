@@ -13,8 +13,6 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json()); // para poder recive solicitudes pos
 
-// mysql://b9034c8dcd3f9f:495f60c6@us-cdbr-iron-east-05.cleardb.net/heroku_12a757c654ccc4a?reconnect=true
-
 
 app.get("/", function(req, res){
 	res.render("index",{title:"HOME"});
