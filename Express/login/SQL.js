@@ -4,10 +4,10 @@ var connection ;
 
 function createConnectionMysql(mysql){
 	connection = mysql.createConnection({
-		host     : "us-cdbr-iron-east-05.cleardb.net",
-		user     : "b9034c8dcd3f9f",
-		password : "495f60c6",
-		database : "heroku_12a757c654ccc4a"
+		host     : "",
+		user     : "",
+		password : ",
+		database : ""
 	});
 	
 }
