@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hapi": ">=16.1.1"
+    "@hapi/hapi": ">=16.1.1"
   }
 }
